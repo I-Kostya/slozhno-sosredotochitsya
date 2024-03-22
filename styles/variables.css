@@ -2,3 +2,13 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+	--page-background-color: #000028;
+	--title-color: #db00ff;
+  --accent-color: #ff0070;
+	--section-card-title-color: #000028;
+	--section-card-text-color: #f1b2ce;
+	--border-opacity-color: #ff007066;
+	--cover-image: url(../images/cover-image-dark.png);
+}
