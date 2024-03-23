@@ -87,15 +87,16 @@
 	padding: 0 13px;
 	background-color: transparent;
 	border: 1px solid transparent;
-	cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
 	border-color: var(--border-opacity-color);
+	cursor: pointer;
 }
 
 .header__theme-menu-button:focus {
-	outline: 0;
+	outline: none;
+	border-block-end: 1px solid var(--accent-color);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -175,8 +176,21 @@
 }
 
 .main__link {
-	text-shadow: 1px 2px 0px var(--accent-color);
+	text-shadow: 1px 2px var(--background-color);
 	text-decoration: none;
+}
+
+.main__link:hover {
+	cursor: pointer;
+	border-block-end: 1px solid currentColor;
+}
+
+.main__link:focus {
+	outline: none;
+}
+
+.main__link:focus-visible {
+	outline: 1px solid var(--accent-color);
 }
 
 .footer {
