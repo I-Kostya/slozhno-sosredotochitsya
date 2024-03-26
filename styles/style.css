@@ -190,7 +190,7 @@
 }
 
 .main__link:focus-visible {
-	outline: 1px solid var(--accent-color);
+	outline: 1px solid currentColor;
 }
 
 .footer {
